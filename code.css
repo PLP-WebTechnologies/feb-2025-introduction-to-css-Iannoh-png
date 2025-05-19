@@ -1,0 +1,144 @@
+/* style.css */
+
+/* --- Element Selectors --- */
+body {
+    font-family: 'Arial', sans-serif;  /* Different font */
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #2c3e50; /* Darker heading color */
+}
+
+h2 {
+    color: #3498db;
+}
+
+/* --- ID Selector --- */
+#main-heading {
+    text-align: center;
+    color: #e74c3c; /* Red color */
+}
+
+#my-image {
+    border: 5px solid #3498db;  /* Blue border */
+    border-radius: 8px;      /* Rounded corners */
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* --- Class Selector --- */
+.sub-heading {
+    color: #8e44ad; /* Purple */
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #8e44ad;
+}
+
+/* --- Combined Selectors --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Add shadow */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #ecf0f1; /* Light gray */
+    color: #2c3e50;
+}
+
+/* --- Form Styles --- */
+form {
+    border: 1px solid #bdc3c7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #7f8c8d;
+    font-weight: bold;
+}
+
+input, button, select, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: calc(100% - 20px);  /* Adjusted width to account for padding */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease; /* Smooth transition */
+}
+
+input:focus, button:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #3498db;  /* Highlight on focus */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button[type="reset"]{
+  background-color: #e7e7e7;
+  color: #000;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.radio-group label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.radio-group input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.checkbox-group label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.checkbox-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+</style>
